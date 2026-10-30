@@ -60,8 +60,6 @@ type DatasetResponse = {
   records: Record<string, unknown>[]
 }
 
-type DataRow = Record<string, unknown>
-
 type SalesMonth = {
   month: string
   revenue: number
